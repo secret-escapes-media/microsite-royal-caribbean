@@ -1,6 +1,15 @@
 
 // need to put a friendly reminder where the g fonts snippet needs to go in the whole site
-// additional families need to included in includes > page > head
+// additional families need to included in includes > page > head\\
+
+@font-face {
+  font-family: 'Canvas Script';
+  src: url('../fonts/CanvasScript-Heavy.woff2') format('woff2'),
+  url('../fonts/CanvasScript-Heavy.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
 
 $font-core: 'Open Sans', 'Helvetica Neue', sans-serif;
-$font-title-01: 'Montserrat', 'Helvetica Neue', sans-serif;
+$font-title-01: 'Canvas Script', 'Brush Script MT', 'Helvetica Neue', sans-serif;
+$font-title-02: 'Oswald', 'Helvetica Neue', sans-serif;

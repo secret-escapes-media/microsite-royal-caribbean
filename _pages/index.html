@@ -4,28 +4,53 @@ id: overview
 nav: true
 nav-order: 1
 title: Overview
-intro: Introduction to destination. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+intro: Island-hop aboard a luxury cruise and discover the island life, from the jungles of St Lucia to the secluded bays of Antigua. Whether you’re looking for warm waters, shady palm trees and golden sands, or fiery cuisine, late-night dancing and vibrant culture, find it all in your dream Caribbean cruise.
+
+banner:
+  title-sup: Set sail to the
+  title: Caribbean
+  title-sub: in total luxury
 ---
 
-<div class="container container--xl text--center text--lg space--xxxxl">
-  <p>{{page.intro}}</p>
-</div>
 
-<div class="container">
-  <div class="row row--xxl-6-6">
-    {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
-    {% for page in content-pages %}
-      <div class="col">
-        <div class="bg-img bg-img--4-3 bg-img--md-16-9 bg-img--xxl-3-2" style="background-image: url('{{site.img}}/img.jpg');">
-          <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
-          <div class="bg-img__content">
-            <div class="title title--lg">{{page.title}}</div>
-          </div>
-          <div class="bg-img__bg-overlay"></div>
-        </div>
-      </div>
-    {% endfor %}
+<div class="container vpad--xxl">
+  <div class="width width--xl text--center text--xl">
+    <div class="width width--lg">
+      <p class="sub-title sub-title--sm text--blue">Discover the island life with Royal Caribbean</p>
+    </div>
+    <p>{{page.intro}}</p>
+    <p>Book selected cruises before November 5th and enjoy all-inclusive deluxe drinks, plus buy one cruise fare and get another half-price.</p>
+    <div class="space--md"></div>
+    <a href="https://www.royalcaribbean.co.uk/holiday-destinations/caribbean-holidays/" class="btn btn--outline btn--outline-cyan">Explore cruises</a>
   </div>
 </div>
 
-<div class="space--xxxxl"></div>
+<div class="bg--special">
+  <div class="container">
+    <div class="width width--xxl vpad--xl">
+      <div class="video js-youtube-thumbnail js-autoplay" id="video-overview" data-thumbnail-img="{{site.img}}/img.jpg">
+        <iframe class="video__iframe" src='https://www.youtube.com/embed/xxxxxx?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen="allowfullscreen"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container vpad--xxxl">
+  {% assign content-pages = site.html_pages | where: "content-pages", "true" | sort: "nav-order" %}
+  {% for page in content-pages %}
+    <div class="bob{% cycle '', ' bob--swap' %}">
+      <div class="bob__img">
+        <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/overview.jpg');">
+          <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
+        </div>
+      </div>
+      <div class="bob__text">
+        <h3 class="title title--xxl text--blue">{{page.title}}</h3>
+        <p class="text--xl">{{page.overview-intro}}</p>
+        <div class="space--sm"></div>
+        <a href="{{site.baseurl}}{{page.url}}" class="btn btn--cyan">Discover More</a>
+      </div>
+    </div>
+    {% unless forloop.last %}<div class="space--xxxxl"></div>{% endunless %}
+  {% endfor %}
+</div>

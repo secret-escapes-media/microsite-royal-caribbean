@@ -1,0 +1,41 @@
+<div class="offer-rc">
+
+  <a class="offer-rc__link" href="{{offer.link}}"><span class="btn btn--cyan">Find Out More</span></a>
+
+  <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/offers/{{offer.id}}.jpg')"></div>
+
+  <div class="offer-rc__content">
+
+    <h3 class="offer-rc__title">{{offer.title}}</h3>
+    <h4 class="offer-rc__sub-title"><span class="offer-rc__sub-title--bold">{{offer.nights}} nights</span> – {{offer.ship}}</h4>
+    <div class="space--xs"></div>
+    <div class="offer-rc__itinerary">
+      {% for item in offer.itinerary %}{{item.content}}{% unless forloop.last %}<span class="offer-rc__itinerary-separator">, </span>{% endunless %}{% endfor %}
+    </div>
+
+    <div class="offer-rc__bottom">
+
+      <div class="offer-rc__bottom-left">
+
+        <div class="offer-rc__details">
+          <div>From <span class="offer-rc__price">£{{offer.price}}</span></div>
+          <div class="text--sm">Per person based on 2 people sharing</div>
+        </div>
+
+      </div>
+      <div class="offer-rc__bottom-right">
+        <div class="offer-rc__arrow"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+

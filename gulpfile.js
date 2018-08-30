@@ -39,7 +39,7 @@ gulp.task('serve', ['build-jekyll'], function() {
     server: {
       baseDir: '_site/',
       routes: {
-        '/_templates/destination-topic': '_site/'
+        '/royal-caribbean': '_site/'
       }
     }
   });
@@ -66,6 +66,11 @@ gulp.task('watch-main-js', ['build-main-js'], function() {
 // watch for js
 gulp.task('watch-js', ['build-js'], function() {
   gulp.watch(['_assets/js/**/*.js'], ['build-js']);
+});
+
+// watch for fonts
+gulp.task('watch-fonts', ['build-fonts'], function() {
+  gulp.watch(['_assets/fonts/**/*.*'], ['build-fonts']);
 });
 
 // watch for images
@@ -107,6 +112,7 @@ gulp.task('build-main-js', function(cb) {
   // --------------------
 
     // plugins
+    './_assets/js/_components/modernizr.js',
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/jquery-countdown/dist/jquery.countdown.min.js',
     // './node_modules/waypoints/lib/jquery.waypoints.min.js',
@@ -119,6 +125,8 @@ gulp.task('build-main-js', function(cb) {
     './_assets/js/_components/offer-countdown.js',
     './_assets/js/_components/modal.js',
     './_assets/js/_components/modal-nav.js',
+    './_assets/js/_components/page-nav.js',
+    './_assets/js/_components/video.js',
     // './_assets/js/_components/sticky-nav.js',
 
     // custom js for project
@@ -147,6 +155,11 @@ gulp.task('build-js', function(cb) {
 gulp.task('build-images', function(cb) {
   return gulp.src('./_assets/img/**/*.*')
   .pipe(gulp.dest('./_site/_assets/img/'))
+});
+
+gulp.task('build-fonts', function(cb) {
+  return gulp.src('./_assets/fonts/**/*.*')
+  .pipe(gulp.dest('./_site/_assets/fonts/'))
 });
 
 
@@ -206,7 +219,8 @@ gulp.task('default', gulpSequence(
     'watch-sass',
     'watch-main-js',
     'watch-js',
-    'watch-images'
+    'watch-images',
+    'watch-fonts'
   ])
 );
 
@@ -218,7 +232,8 @@ gulp.task('build', gulpSequence(
     'build-sass',
     'build-main-js',
     'build-js',
-    'build-images'
+    'build-images',
+    'build-fonts'
   ],
   [
     'clean-sourcemaps',

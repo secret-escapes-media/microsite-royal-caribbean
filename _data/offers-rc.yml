@@ -1,0 +1,86 @@
+- id: western-caribbean
+  title: Western Caribbean
+  nights: 7
+  ship: Oasis of the Seas
+  itinerary:
+    - content: Port Canaveral (Florida), United States
+    - content: Labadee®, Haiti
+    - content: Falmouth, Jamaica
+    - content: Cozumel, Mexico
+    - content: Port Canaveral (Florida), United States
+  price: 584
+  link: "rc-cruise-link"
+
+- id: southern-caribbean
+  title: Southern Caribbean
+  nights: 12
+  ship: Anthem of the Seas
+  itinerary:
+    - content: Cape Liberty (New York), United States
+    - content: San Juan, Puerto Rico
+    - content: Philipsburg, St. Maarten
+    - content: St. John's, Antigua
+    - content: Castries, St. Lucia
+    - content: Bridgetown, Barbados
+    - content: Basseterre, St. Kitts & Nevis
+    - content: Cape Liberty (New York), United States
+  price: 1049
+  link: "rc-cruise-link"
+
+- id: western-caribbean
+  title: Western Caribbean
+  nights: 7
+  ship: Oasis of the Seas
+  itinerary:
+    - content: Port Canaveral (Florida), United States
+    - content: Labadee®, Haiti
+    - content: Falmouth, Jamaica
+    - content: Cozumel, Mexico
+    - content: Port Canaveral (Florida), United States
+  price: 584
+  link: "rc-cruise-link"
+
+- id: southern-caribbean
+  title: Southern Caribbean
+  nights: 12
+  ship: Anthem of the Seas
+  itinerary:
+    - content: Cape Liberty (New York), United States
+    - content: San Juan, Puerto Rico
+    - content: Philipsburg, St. Maarten
+    - content: St. John's, Antigua
+    - content: Castries, St. Lucia
+    - content: Bridgetown, Barbados
+    - content: Basseterre, St. Kitts & Nevis
+    - content: Cape Liberty (New York), United States
+  price: 1049
+  link: "rc-cruise-link"
+
+- id: western-caribbean
+  title: Western Caribbean
+  nights: 7
+  ship: Oasis of the Seas
+  itinerary:
+    - content: Port Canaveral (Florida), United States
+    - content: Labadee®, Haiti
+    - content: Falmouth, Jamaica
+    - content: Cozumel, Mexico
+    - content: Port Canaveral (Florida), United States
+  price: 584
+  link: "rc-cruise-link"
+
+- id: southern-caribbean
+  title: Southern Caribbean
+  nights: 12
+  ship: Anthem of the Seas
+  itinerary:
+    - content: Cape Liberty (New York), United States
+    - content: San Juan, Puerto Rico
+    - content: Philipsburg, St. Maarten
+    - content: St. John's, Antigua
+    - content: Castries, St. Lucia
+    - content: Bridgetown, Barbados
+    - content: Basseterre, St. Kitts & Nevis
+    - content: Cape Liberty (New York), United States
+  price: 1049
+  link: "rc-cruise-link"
