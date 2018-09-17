@@ -20,7 +20,9 @@ destinations:
     title: Antigua
     intro: A patchwork of colourful villages give way to sheltered coves, turquoise waters and irresistible beaches...
     description: Antigua was the jet-set destination of the 1950s and ‘60s, a smart getaway for tropical luxury. Now, the footfall is lesser than those halcyon days, offering an untouched quality to this remarkable island. Its beauty is renowned – bright, multicoloured villages line breathtaking bays, colonial harbours host al fresco dining and late-night bars, all on an island that is well-versed in offering old-age glamour to savvy travellers.
-    link: https://www.royalcaribbean.co.uk/holiday-destinations/caribbean-holidays/antigua/
+    link: https://www.royalcaribbean.co.uk/holiday-destinations/caribbean-holidays/antigua?cid=UKRCIBN_SecretEscapes_LandingPage&phone=dispoth
+
+    excursions: Swim with majestic stingrays or adventure into the rainforest on a 4x4 safari…
 
     pois:
 
@@ -40,7 +42,9 @@ destinations:
     title: Grenada
     intro: The island of spice and forests, a verdant Caribbean starlet of natural wonder.
     description: Get lost on its effortlessly beautiful beaches and explore the unique culture of Grenada in picture-perfect towns. A host of activities thrive here; try diving in some of the best spots in the Caribbean, or enjoy the beautiful walks and hikes through the tropical interior. Grenada is a spellbinding island awash with typical Caribbean charm by the bucket load.
-    link: https://www.royalcaribbean.co.uk/holiday-destinations/caribbean-holidays/grenada/
+    link: https://www.royalcaribbean.co.uk/holiday-destinations/caribbean-holidays/grenada?cid=UKRCIBN_SecretEscapes_LandingPage&phone=dispoth
+
+    excursions: Discover Grenada’s most impressive sights with a knowledgeable guide, including the Dougaldston Spice Estate, Grand Etang Lake, Annandale Falls and Fort Frederick, or take a vintage vehicle ride around beautiful St. George’s.
 
     pois:
 
@@ -60,7 +64,9 @@ destinations:
     title: Jamaica
     intro: The loudest of all the islands, Jamaica is a joyful riot of culture, the land of wood and water.
     description: Rocksteady-saunter is framed by gorgeous countryside, cascading waterfalls and fiery cuisine. Whether it’s hanging out at a jerk spot tucking into the island’s famous oil-drum jerk with rice and peas, or sinking into white sand beaches under palm tree canopies, Jamaica is a heady mix of all the Caribbean’s best bits.
-    link: https://www.royalcaribbean.co.uk/holiday-destinations/caribbean-holidays/jamaica/
+    link: https://www.royalcaribbean.co.uk/holiday-destinations/caribbean-holidays/jamaica?cid=UKRCIBN_SecretEscapes_LandingPage&phone=dispoth
+
+    excursions: Explore the sublime Dunn’s River Falls and Green Grotto Caves, head for Reggae Hill and dine to the sweet island rhythms, or relax with entertainment at the Bamboo Beach Club.
 
     pois:
 
@@ -80,7 +86,9 @@ destinations:
     title: St Lucia
     intro: This volcanic outcrop harbours a lush rainforest interior that makes St Lucia an island of outdoor wonders.
     description: Away from the rich interior, the coastline hides a wealth of gorgeous beaches. Explore pastel towns and prop up at the iconic rum shacks, soaking up the enviable lifestyle of St Lucia’s hospitable locals. From idyllic bays to botanical gardens, St Lucia is a true island paradise.
-    link: https://www.royalcaribbean.co.uk/holiday-destinations/caribbean-holidays/st-lucia/
+    link: https://www.royalcaribbean.co.uk/holiday-destinations/caribbean-holidays/st-lucia?cid=UKRCIBN_SecretEscapes_LandingPage&phone=dispoth
+
+    excursions: Take a guided tour of Diamond Beach Botanical Gardens and a steaming volcanic crater, or enjoy a coastal cruise to the magnificent Pitons and a Segway adventure on St Lucia’s beautiful nature trails...
 
     pois:
 
@@ -100,7 +108,9 @@ destinations:
     title: Barbados
     intro: Some of the Caribbean’s best beaches, rum, soca and spice – indulge in the Bajan way of life.
     description: It’s a way of life to envy for sure – first with a warm welcome, hearty generosity, and then the cultural nuances; from propping up at the famous rum bars, sinking into the beaches and staying late at the fish fry, dancing to calypso. Over 92 km of unspoilt coastline makes Barbados a perfect escape for beach lovers, an island paradise that remains truly irresistible.
-    link: https://www.royalcaribbean.co.uk/holiday-destinations/caribbean-holidays/barbados/
+    link: https://www.royalcaribbean.co.uk/holiday-destinations/caribbean-holidays/barbados?cid=UKRCIBN_SecretEscapes_LandingPage&phone=dispoth
+
+    excursions: Embark on a catamaran adventure in Turtle Bay, with a chance to snorkel and swim with the turtles, or take a coast-to-coast drive to see all that the island has to offer. Green monkeys await at the 4x4 rainforest adventure!
 
     pois:
 
@@ -121,6 +131,22 @@ destinations:
   <div class="width width--lg text--center text--xxl">
     <p>{{page.intro}}</p>
   </div>
+  <div class="space--lg"></div>
+  <div class="width width--lg boxpad--lg bg--special">
+    <div class="row row--valign-center row--gutters-sm">
+      <div class="col col--lg-5">
+        <div class="bg-img bg-img--16-9 bg-img--lg-1-1" style="background-image: url('{{site.img}}/content/{{page.id}}/cococay.jpg');">
+          <a href="https://www.royalcaribbean.co.uk/holiday-destinations/bahamas-bermuda/bahamas/cococay/?cid=UKRCIBN_SecretEscapes_LandingPage&phone=dispoth" class="bg-img__link"></a>
+        </div>
+      </div>
+      <div class="col col--lg-7 text--left">
+        <h3 class="title title--xxs text--blue">Perfect day at CocoCay</h3>
+        <p class="text--sm">Don’t miss your chance to escape to Royal Caribbean's very own private island! Experience your Perfect Day on CocoCay, set in the gorgeous seas of the Bahamas. Chill or thrill in this private beach resort, whizzing through the waves on a jet ski, soaring in the skies in a helium balloon or relishing the views from your idyllic overwater cabana.</p>
+        <div class="space--xs"></div>
+        <a href="https://www.royalcaribbean.co.uk/perfect-day-cococay/" class="btn btn--xs btn--outline btn--outline-cyan">Explore Now</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 {% include nav/page.html content=page.destinations %}
@@ -128,17 +154,22 @@ destinations:
 {% for destination in page.destinations %}
   <div id="{{destination.id}}" class="vpad--xxxl{% cycle '', ' bg--grey-lightest' %} bg__fixed">
     <div class="bg__fixed-wrap">
-      <div class="bg__fixed-img" style="background-image: url('{{site.img}}/content/caribbean/bg-{% cycle '01', '02' %}.jpg');"></div>
+      <div class="bg__fixed-img" style="background-image: url('{{site.img}}/content/{{page.id}}/{{destination.id}}/bg.jpg');"></div>
     </div>
     <div class="container">
       <h2 class="title title--xxl">{{destination.title}}</h2>
       <p class="text--xxl">{{destination.intro}}</p>
       <p>{{destination.description}}</p>
+      <p>Book your own {{destination.title}} shore excursion with Royal Caribbean! {{destination.excursions}}</p>
+      <div class="space--sm"></div>
+      <a class="btn btn--sm btn--outline btn--outline-cyan" href="https://www.royalcaribbean.co.uk/discover-cruise-holidays/shore-excursions/">Book a shore excursion</a>
       <div class="space--xxl"></div>
       <div class="row row--4-4-4 row--gutters-lg">
         {% for poi in destination.pois %}
           <div class="col">
-            <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/poi/{{poi.id}}.jpg');"></div>
+            <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{destination.id}}/{{poi.id}}.jpg');">
+              <a href="{{destination.link}}" class="bg-img__link"></a>
+            </div>
             <div class="space--md"></div>
             <h3 class="title title--xs">{{poi.title}}</h3>
             <p>{{poi.description}}</p>

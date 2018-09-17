@@ -12,16 +12,20 @@
   border-radius: 3px;
   cursor: pointer;
   @include transition;
-  &--sm { padding: $s1 $s4; font-size: $s-2; }
   &--lg { padding: $s3 $s8; font-size: $s-1; }
+  &--sm { padding: $s1 $s4; font-size: $s-2; }
+  &--xs { padding: $s0 $s2; font-size: $s-2; }
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
   &--blue { background-color: $rc-blue;
-    &:hover { background-color: darken($rc-blue,10); }
+    &:hover { background-color: darken($rc-blue,8); }
   }
   &--cyan { background-color: $rc-cyan;
     &:hover { background-color: darken($rc-cyan,10); }
+  }
+  &--yellow { background-color: $rc-yellow;
+    &:hover { background-color: darken($rc-yellow,10); }
   }
   &--outline {
     color: inherit;

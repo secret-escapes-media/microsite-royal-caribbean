@@ -25,7 +25,7 @@ $offer-max-width: 600px;
     @include transition;
     &:hover {
       opacity: 1;
-      background-color: rgba($grey-darkest,.33);
+      background-color: rgba($grey-darkest,.4);
       color: $white;
       .touch & { opacity: 0; }
     }
@@ -61,7 +61,7 @@ $offer-max-width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: $s2;
+    padding-top: $s0;
     margin-top: $s2;
     border-top: 1px solid $grey-lighter;
     &-right {
@@ -75,6 +75,10 @@ $offer-max-width: 600px;
       max-width: $offer-max-width; // needed for ie11
       margin-right: auto;
     }
+  }
+  &__terms {
+    padding: $s-2;
+    background-color: #f6f7f8;
   }
   &__arrow {
     display: none;

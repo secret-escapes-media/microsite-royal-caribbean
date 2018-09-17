@@ -18,6 +18,10 @@
     vertical-align: middle;
   }
 
+  a.js-open-modal {
+    &:hover { text-decoration: underline; }
+  }
+
   // white background for footer. Transparent colours will appear as block colours
   position: relative;
   background-color: $white;

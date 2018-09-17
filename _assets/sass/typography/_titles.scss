@@ -14,8 +14,8 @@
   &--md     { font-size: $s4; }
   &--sm     { font-size: $s3; }
   &--xs     { font-size: $s2; letter-spacing: .25rem; }
-  &--xxs    { font-size: $s1; }
-  &--xxxs   { font-size: $s0; }
+  &--xxs    { font-size: $s1; letter-spacing: .25rem; }
+  &--xxxs   { font-size: $s0; letter-spacing: .25rem; }
   @include bp($lg){
     &--xxxl   { font-size: $s9; }
     &--xxl    { font-size: $s8; }

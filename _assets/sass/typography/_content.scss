@@ -3,16 +3,16 @@
 em      { font-style: italic; }
 strong  { font-weight: 600; }
 sup {
-  font-size: $s-1;
+  font-size: .6em;
   line-height: 0;
   vertical-align: super;
 }
 
 // standard inline link style
 a[href]:not([class]) {
-  color: $orange;
+  color: $rc-cyan;
   @include transition;
-  &:hover { color: $orange-darker; }
+  &:hover { color: darken($rc-cyan,15); }
 }
 
 li {

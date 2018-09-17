@@ -6,6 +6,7 @@
   &--xl  { font-size: 1.1rem; line-height: 1.6; letter-spacing: 0; }
   &--lg  { font-size: 1.05rem; letter-spacing: 0; }
   &--sm  { font-size: .8rem; }
+  &--xs  { font-size: .66rem; }
 
   // styles
   &--italic       { font-style: italic; }
@@ -20,6 +21,7 @@
   // colours
   &--white { color: $grey-lightest; }
   &--black { color: $grey-dark; }
+  &--light { color: $grey; }
   &--blue  { color: $rc-blue; }
   &--cyan  { color: $rc-cyan; }
 
