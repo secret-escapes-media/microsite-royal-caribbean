@@ -65,31 +65,3 @@
     one: 962
     two: 481
   link: https://www.royalcaribbean.co.uk/itinerary-details/?itin=07E204&ship=AL&sail=20190505&room=Interior&cid=UKRCIBN_SecretEscapes_LandingPage&phone=dispoth
-
-- id: eastern-caribbean-02
-  title: Eastern Caribbean
-  nights: 7
-  ship: Allure of the Seas
-  itinerary:
-    - content: Miami (Florida), United States
-    - content: Philipsburg, St. Maarten
-    - content: San Juan, Puerto Rico
-    - content: Labadee<sup>®</sup>, Haiti
-    - content: Miami (Florida), United States
-  departure-date: 02 DEC 2018
-  price: 530
-  link: https://www.royalcaribbean.co.uk/itinerary-details/?itin=07E180&ship=AL&sail=20181202&room=Interior&cid=UKRCIBN_SecretEscapes_LandingPage&phone=dispoth
-
-- id: western-caribbean-04
-  title: Western Caribbean
-  nights: 7
-  ship: Oasis of the Seas
-  itinerary:
-    - content: Orlando (Port Canaveral), United States
-    - content: Labadee<sup>®</sup>, Haiti
-    - content: Falmouth, Jamaica
-    - content: Cozumel, Mexico
-    - content: Orlando (Port Canaveral), United States
-  departure-date: 09 DEC 2018
-  price: 502
-  link: https://www.royalcaribbean.co.uk/itinerary-details/?itin=07W260&ship=OA&sail=20181209&room=Interior&cid=UKRCIBN_SecretEscapes_LandingPage&phone=dispoth
