@@ -7,3 +7,9 @@
   '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-TH4FN5');</script> -->
 <!-- End Google Tag Manager -->
+
+{% if page.tracking-pixels %}
+  <div class="hidden js-tracking-pixels-cachebusters">
+    {{page.tracking-pixels}}
+  </div>
+{% endif %}
