@@ -9,10 +9,10 @@
     - content: Cozumel, Mexico
     - content: Orlando (Port Canaveral), United States
   departure-date: 20 JAN 2019
-  price: 611
+  price: 632
   guest-price:
-    one: 815
-    two: 408
+    one: 842
+    two: 421
   link: https://servedby.flashtalking.com/click/1/98148;3371079;50126;211;0/?ft_width=1&ft_height=1&url=20859513
 
 - id: western-caribbean-02
@@ -43,10 +43,10 @@
     - content: Puerto Costa Maya, Mexico
     - content: Miami (Florida) Unites States
   departure-date: 17 MAR 2019
-  price: 648
+  price: 680
   guest-price:
-    one: 864
-    two: 432
+    one: 906
+    two: 453
   link: https://servedby.flashtalking.com/click/1/98148;3371081;50126;211;0/?ft_width=1&ft_height=1&url=20859515
 
 - id: eastern-caribbean-01
@@ -60,8 +60,8 @@
     - content: Labadee, Haiti
     - content: Fort Lauderdale, Florida
   departure-date: 05 MAY 2019
-  price: 722
+  price: 741
   guest-price:
-    one: 962
-    two: 481
+    one: 988
+    two: 494
   link: https://servedby.flashtalking.com/click/1/98148;3371082;50126;211;0/?ft_width=1&ft_height=1&url=20859516
