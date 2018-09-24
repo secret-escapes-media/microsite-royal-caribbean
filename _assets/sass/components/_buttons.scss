@@ -43,22 +43,22 @@
       @include transition;
     }
   }
-  &--outline-orange {
-    &:before { border-color: $orange; }
-    &:hover {
-      color: white;
-      background-color: $orange;
-      &:before { border-color: $orange; }
-    }
-  }
-  &--outline-blue {
-    &:before { border-color: $rc-blue; }
-    &:hover {
-      color: white;
-      background-color: $rc-blue;
-      &:before { border-color: $rc-blue; }
-    }
-  }
+  // &--outline-orange {
+  //   &:before { border-color: $orange; }
+  //   &:hover {
+  //     color: white;
+  //     background-color: $orange;
+  //     &:before { border-color: $orange; }
+  //   }
+  // }
+  // &--outline-blue {
+  //   &:before { border-color: $rc-blue; }
+  //   &:hover {
+  //     color: white;
+  //     background-color: $rc-blue;
+  //     &:before { border-color: $rc-blue; }
+  //   }
+  // }
   &--outline-cyan {
     &:before { border-color: $rc-cyan; }
     &:hover {

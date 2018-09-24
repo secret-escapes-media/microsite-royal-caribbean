@@ -4,7 +4,7 @@
   // custom content headline
   font-family: $font-title-02;
   font-weight: 300;
-  letter-spacing: .5rem;
+  letter-spacing: .33rem;
   line-height: 1.25;
   text-transform: uppercase;
   &--xxxl   { font-size: $s8; }
@@ -17,15 +17,16 @@
   &--xxs    { font-size: $s1; letter-spacing: .25rem; }
   &--xxxs   { font-size: $s0; letter-spacing: .25rem; }
   @include bp($lg){
+    letter-spacing: .5rem;
     &--xxxl   { font-size: $s9; }
     &--xxl    { font-size: $s8; }
     &--xl     { font-size: $s7; }
     &--lg     { font-size: $s6; }
     &--md     { font-size: $s5; }
     &--sm     { font-size: $s4; }
-    &--xs     { font-size: $s3; }
-    &--xxs    { font-size: $s2; }
-    &--xxxs   { font-size: $s1; }
+    &--xs     { font-size: $s3; letter-spacing: .25rem; }
+    &--xxs    { font-size: $s2; letter-spacing: .25rem; }
+    &--xxxs   { font-size: $s1; letter-spacing: .25rem; }
   }
 }
 
@@ -33,23 +34,21 @@
 
   // custom content headline
   font-family: $font-title-02;
-  font-size: $s4;
   font-weight: 400;
   letter-spacing: .5rem;
   line-height: 1.25;
   text-transform: uppercase;
 
-
-
-
-  // font-size: $s2; // default size
-  // &--lg     { font-size: $s4; }
-  // &--sm     { font-size: $s0; }
-  // @include bp($lg){
-  //   font-size: $s3; // default size
-  //   &--lg     { font-size: $s5; }
-  //   &--sm     { font-size: $s1; }
-  // }
+  font-size: $s2;
+  letter-spacing: .25rem;
+  @include bp($md){
+    font-size: $s3;
+    letter-spacing: .4rem;
+  }
+  @include bp($xl){
+    font-size: $s4;
+    letter-spacing: .5rem;
+  }
 
 }
 
@@ -86,21 +85,15 @@
 
 
 .banner-title {
-
   // custom banner headline
   font-family: $font-title-01;
-  font-size: $s13;
   line-height: .9;
-
-  // font-size: $s5;
-  // @include bp($md){ font-size: $s7; }
-  // @include bp($xl){ font-size: $s10; }
+  font-size: $s8;
+  font-weight: 400;
+  font-style: normal;
+  @include bp($sm){ font-size: $s9; }
+  @include bp($md){ font-size: $s10; }
+  @include bp(540px){ font-size: $s11; }
+  @include bp($lg){ font-size: $s12; }
+  @include bp($xl){ font-size: $s13; }
 }
-
-// .bold-title {
-//   font-family: $font-core;
-//   font-weight: 600;
-//   letter-spacing: -.025em;
-//
-//   font-size: $s5;
-// }

@@ -122,9 +122,9 @@ gulp.task('build-main-js', function(cb) {
 
     // components
     './_assets/js/_components/standard.js',
-    './_assets/js/_components/offer-countdown.js',
+    // './_assets/js/_components/offer-countdown.js',
     './_assets/js/_components/modal.js',
-    './_assets/js/_components/modal-nav.js',
+    // './_assets/js/_components/modal-nav.js',
     './_assets/js/_components/page-nav.js',
     './_assets/js/_components/video.js',
     // './_assets/js/_components/sticky-nav.js',

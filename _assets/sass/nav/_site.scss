@@ -2,7 +2,7 @@
 
 $site-nav-height:    56px;
 $site-nav-height-sm: 44px;
-$nav-width-bp:       640px;
+$nav-width-bp:       480px;
 $nav-color:          $white;
 
 
@@ -18,8 +18,11 @@ $nav-color:          $white;
 
 .site-nav {
   position: relative;
-  // background-color: rgba($nav-color,.8);
+  background-color: rgba($nav-color,.8);
   text-align: center;
+  @include bp($nav-width-bp){
+    background-color: transparent;
+  }
 
   // NEEDS EXPLAINING LIKE THE CORE NAV OFFSET
   &__offset:before {
@@ -76,7 +79,10 @@ $nav-color:          $white;
   &__item {
     display: flex;
     flex: 1 0 auto;
-    background-color: rgba($white,.8);
+    background-color: transparent;
+    @include bp($nav-width-bp){
+      background-color: rgba($white,.8);
+    }
   }
   &__item + &__item &__link {
     border-left: 1px solid rgba($rc-cyan-dark,.25);

@@ -10,6 +10,10 @@
     background-image: url('../img/leaf.png');
     background-position: center;
     overflow: hidden;
+    background-size: 300px;
+    @include bp($lg){
+      background-size: 600px;
+    }
   }
   &__fixed {
     position: relative;

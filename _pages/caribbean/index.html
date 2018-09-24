@@ -154,14 +154,14 @@ destinations:
     <div class="row row--valign-center row--gutters-sm">
       <div class="col col--lg-5">
         <div class="bg-img bg-img--16-9 bg-img--lg-1-1" style="background-image: url('{{site.img}}/content/{{page.id}}/cococay.jpg');">
-          <a href="https://servedby.flashtalking.com/click/1/98148;3371065;50126;211;0/?ft_width=1&ft_height=1&url=20859499" class="bg-img__link"></a>
+          <a id="track-cococay-img" href="https://servedby.flashtalking.com/click/1/98148;3371065;50126;211;0/?ft_width=1&ft_height=1&url=20859499" class="bg-img__link"></a>
         </div>
       </div>
       <div class="col col--lg-7 text--left">
         <h3 class="title title--xxs text--blue">Perfect day at CocoCay</h3>
         <p class="text--sm">Don’t miss your chance to escape to Royal Caribbean's very own private island! Experience your Perfect Day on CocoCay, set in the gorgeous seas of the Bahamas. Chill or thrill in this private beach resort, whizzing through the waves on a jet ski, soaring in the skies in a helium balloon or relishing the views from your idyllic overwater cabana.</p>
         <div class="space--xs"></div>
-        <a href="https://servedby.flashtalking.com/click/1/98148;3371065;50126;211;0/?ft_width=1&ft_height=1&url=20859499" class="btn btn--xs btn--outline btn--outline-cyan">Explore Now</a>
+        <a id="track-cococay-btn" href="https://servedby.flashtalking.com/click/1/98148;3371065;50126;211;0/?ft_width=1&ft_height=1&url=20859499" class="btn btn--xs btn--outline btn--outline-cyan">Explore Now</a>
       </div>
     </div>
   </div>
@@ -180,11 +180,11 @@ destinations:
       <p>{{destination.description}}</p>
       <p>Book your own {{destination.title}} shore excursion with Royal Caribbean! {{destination.excursions}}</p>
       <div class="space--xxl"></div>
-      <div class="row row--4-4-4 row--gutters-lg">
+      <div class="row row--lg-6-6 row--xxl-4-4-4 row--gutters-lg">
         {% for poi in destination.pois %}
           <div class="col">
             <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{destination.id}}/{{poi.id}}.jpg');">
-              <a href="{{destination.link}}" class="bg-img__link"></a>
+              <a id="track-{{destination.id}}-{{poi.id}}-img" href="{{destination.link}}" class="bg-img__link"></a>
             </div>
             <div class="space--md"></div>
             <h3 class="title title--xs">{{poi.title}}</h3>
@@ -193,7 +193,7 @@ destinations:
         {% endfor %}
       </div>
       <div class="space--xl text--center">
-        <a href="{{destination.link}}" class="btn btn--cyan">See {{destination.title}} cruises</a>
+        <a id="track-{{destination.id}}-btn" href="{{destination.link}}" class="btn btn--cyan">See {{destination.title}} cruises</a>
       </div>
     </div>
   </div>

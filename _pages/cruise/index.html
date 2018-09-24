@@ -50,7 +50,7 @@ topics:
         description: Enjoy an ice cream by one of the many pools, head through the landscaped beauty of Central Park<sup>*</sup> for dinner or pick up your favourite coffee at our Starbucks<sup>*</sup> – the only one that’s not on dry land.
 
   - id: entertainment
-    title: Award-winning Entertainment
+    title: Award-winning Entertain&shy;ment
     nav-title: Entertainment
     description: The latest technologies, the biggest shows and the hottest talent – combined to create an entertainment powerhouse, just for you.
     link: https://servedby.flashtalking.com/click/1/98148;3371073;50126;211;0/?ft_width=1&ft_height=1&url=20859507
@@ -166,11 +166,11 @@ topics:
       <h2 class="title title--xxl text--blue">{{topic.title}}</h2>
       <p class="text--xxl">{{topic.description}}</p>
       <div class="space--xxl"></div>
-      <div class="row row--4-4-4 row--gutters-lg">
+      <div class="row row--lg-6-6 row--xxl-4-4-4 row--gutters-lg">
         {% for poi in topic.pois %}
           <div class="col">
             <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{topic.id}}/{{poi.id}}.jpg');">
-              <a href="{{topic.link}}" class="bg-img__link"></a>
+              <a id="track-{{topic.id}}-{{poi.id}}-img" href="{{topic.link}}" class="bg-img__link"></a>
               {% if poi.included %}<div class="bg-img__tag included-tag">All included</div>{% endif %}
             </div>
             <div class="space--md"></div>
@@ -180,7 +180,7 @@ topics:
         {% endfor %}
       </div>
       <div class="space--xl text--center">
-        <a href="{{topic.link}}" class="btn btn--cyan">Find Out More</a>
+        <a id="track-{{topic.id}}-btn" href="{{topic.link}}" class="btn btn--cyan">Find Out More</a>
         <p class="text--sm"><sup>*</sup>onboard features vary by ship</p>
       </div>
     </div>
