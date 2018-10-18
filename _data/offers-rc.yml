@@ -1,67 +1,67 @@
+- id: eastern-caribbean-01
+  title: Eastern Caribbean
+  nights: 7
+  ship: Allure of the Seas
+  itinerary:
+    - content: Miami (Florida)
+    - content: Philipsburg, St. Maarten
+    - content: San Juan, Puerto Rico
+    - content: Labadee, Haiti
+    - content: Miami (Florida)
+  departure-date: 13 JAN 2019
+  price: 719
+  guest-price:
+    one: 959
+    two: 480
+  link: https://servedby.flashtalking.com/click/1/98148;3441414;50126;211;0/?ft_width=1&ft_height=1&url=21193993
+
 - id: western-caribbean-01
   title: Western Caribbean
   nights: 7
   ship: Oasis of the Seas
   itinerary:
-    - content: Orlando (Port Canaveral), United States
-    - content: Labadee<sup>®</sup>, Haiti
+    - content: Orlando (Port Canaveral)
+    - content: Labadee, Haiti
     - content: Falmouth, Jamaica
     - content: Cozumel, Mexico
-    - content: Orlando (Port Canaveral), United States
-  departure-date: 20 JAN 2019
-  price: 674
+    - content: Orlando (Port Canaveral)
+  departure-date: 03 FEB 2019
+  price: 734
   guest-price:
-    one: 799
-    two: 449
-  link: https://servedby.flashtalking.com/click/1/98148;3371079;50126;211;0/?ft_width=1&ft_height=1&url=20859513
+    one: 979
+    two: 490
+  link: https://servedby.flashtalking.com/click/1/98148;3441415;50126;211;0/?ft_width=1&ft_height=1&url=21193994
+
+- id: eastern-caribbean-02
+  title: Eastern Caribbean
+  nights: 7
+  ship: Allure of the Seas
+  itinerary:
+    - content: Fort Lauderdale (Florida)
+    - content: Basseterre, St Kitts & Nevis
+    - content: Charlotte Amalie, St. Thomas
+    - content: Nassau, Bahamas
+    - content: Fort Lauderdale (Florida)
+  departure-date: 06 OCT 2019
+  price: 671
+  guest-price:
+    one: 894
+    two: 447
+  link: https://servedby.flashtalking.com/click/1/98148;3441416;50126;211;0/?ft_width=1&ft_height=1&url=21193995
 
 - id: western-caribbean-02
   title: Western Caribbean
   nights: 7
   ship: Oasis of the Seas
   itinerary:
-    - content: Orlando (Port Canaveral), United States
-    - content: Labadee<sup>®</sup>, Haiti
+    - content: Miami (Florida)
+    - content: Labadee, Haiti
     - content: Falmouth, Jamaica
     - content: Cozumel, Mexico
-    - content: Orlando (Port Canaveral), United States
-  departure-date: 03 FEB 2019
-  price: 734
+    - content: Miami (Florida)
+  departure-date: 01 DEC 2019
+  price: 582
   guest-price:
-    one: 979
-    two: 489
-  link: https://servedby.flashtalking.com/click/1/98148;3371080;50126;211;0/?ft_width=1&ft_height=1&url=20859514
-
-- id: western-caribbean-03
-  title: Western Caribbean
-  nights: 7
-  ship: Allure of the Seas
-  itinerary:
-    - content: Miami (Florida), Unted States
-    - content: Nassau, Bahamas, Cozumel, Mexico
-    - content: Roatan, Hounduras
-    - content: Puerto Costa Maya, Mexico
-    - content: Miami (Florida) Unites States
-  departure-date: 17 MAR 2019
-  price: 937
-  guest-price:
-    one: 1249
-    two: 624
-  link: https://servedby.flashtalking.com/click/1/98148;3371081;50126;211;0/?ft_width=1&ft_height=1&url=20859515
-
-- id: eastern-caribbean-01
-  title: Eastern Caribbean
-  nights: 7
-  ship: Allure of the Seas
-  itinerary:
-    - content: Fort Lauderdale, Florida
-    - content: Philipsburg, St. Maarten
-    - content: San Juan, Puerto Rico
-    - content: Labadee, Haiti
-    - content: Fort Lauderdale, Florida
-  departure-date: 05 MAY 2019
-  price: 731
-  guest-price:
-    one: 988
-    two: 494
-  link: https://servedby.flashtalking.com/click/1/98148;3371082;50126;211;0/?ft_width=1&ft_height=1&url=20859516
+    one: 776
+    two: 388
+  link: https://servedby.flashtalking.com/click/1/98148;3441417;50126;211;0/?ft_width=1&ft_height=1&url=21193996
