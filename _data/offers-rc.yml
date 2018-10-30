@@ -9,10 +9,10 @@
     - content: Labadee, Haiti
     - content: Miami (Florida)
   departure-date: 13 JAN 2019
-  price: 719
+  price: 659
   guest-price:
-    one: 959
-    two: 480
+    one: 879
+    two: 439
   link: https://servedby.flashtalking.com/click/1/98148;3441414;50126;211;0/?ft_width=1&ft_height=1&url=21193993
 
 - id: western-caribbean-01
@@ -26,10 +26,10 @@
     - content: Cozumel, Mexico
     - content: Orlando (Port Canaveral)
   departure-date: 03 FEB 2019
-  price: 734
+  price: 727
   guest-price:
-    one: 979
-    two: 490
+    one: 969
+    two: 484
   link: https://servedby.flashtalking.com/click/1/98148;3441415;50126;211;0/?ft_width=1&ft_height=1&url=21193994
 
 - id: eastern-caribbean-02
