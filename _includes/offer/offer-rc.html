@@ -12,16 +12,13 @@
     <div class="offer-rc__bottom">
       <div class="offer-rc__bottom-left">
         <div class="offer-rc__details">
-          <div class="text--sm">Cruise only from <span class="offer-rc__price">£{{offer.price}}<sup>*</sup></span></div>
-          <div class="text--sm">Per person based on 2 people sharing</div>
+          <div class="text--sm">Cruise only from<span class="offer-rc__price"> £{{offer.price}}<sup>*</sup></span> per person</div>
+          {% if offer.has-spending-money %}<div class="spending-money text--sm">includes $500 onboard spend*</div>{% endif %}
         </div>
       </div>
       <div class="offer-rc__bottom-right">
         <div class="offer-rc__arrow"></div>
       </div>
     </div>
-  </div>
-  <div class="offer-rc__terms">
-    <p class="text--xs text--light"><sup>*</sup>{% if offer.guest-price %}All Inclusive 2019 Sailings + Buy one cruise fare get one half price: guest 1 from £{{offer.guest-price.one}}, guest 2 from £{{offer.guest-price.two}}. {% endif %}Eligible staterooms on selected 2019 sailings from UK, Europe and Caribbean. T&Cs apply</p>
   </div>
 </div>

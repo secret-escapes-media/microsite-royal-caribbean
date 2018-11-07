@@ -9,3 +9,20 @@
   color: $white;
   background-color: $rc-blue;
 }
+
+.link {
+  font-weight: 400;
+  &:hover { text-decoration: underline; }
+}
+
+.spending-money {
+  display: inline-block;
+  background-color: lighten($rc-cyan,60);
+  padding: $s-4 $s-2;
+  color: $rc-cyan;
+  font-weight: 400;
+  border-radius: 99999px;
+  line-height: 1;
+  margin-left: -.2rem;
+  * + & { margin-top: $s-3; }
+}
